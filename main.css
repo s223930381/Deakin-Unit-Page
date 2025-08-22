@@ -1,53 +1,20 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
 }
 
-/* Header styling */
-header {
-  background-color: #004080; /* Deakin blue */
-  color: white;
-  padding: 20px;
-  display: flex;
-  align-items: center;
+.header {
+  background-color: darkcyan;
+  text-align: right;
+  padding: 14px 18px;
 }
 
-header .logo {
-  width: 80px;
-  margin-right: 15px;
+.header img {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 h1 {
   font-size: 40px;
-  margin: 0;
-}
-
-h2 {
-  font-size: 25px;
-  color: #004080;
-}
-
-p {
-  font-size: 14px;
-}
-
-/* Footer styling */
-footer {
-  background-color: #f1f1f1;
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
-  font-size: 14px;
-}
-
-footer a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
+  font-family: Arial, sans-serif;
+  margin: 24px;
 }
