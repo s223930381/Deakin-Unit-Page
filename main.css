@@ -1,20 +1,44 @@
-body {
-  margin: 0;
-}
+/* Basic typography */
+h1 { font-size: 40px; font-family: Arial, Helvetica, sans-serif; }
+h2 { font-size: 25px; font-family: Arial, Helvetica, sans-serif; }
+h3 { font-family: Arial, Helvetica, sans-serif; }
+p  { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
 
+/* Header (US1) */
 .header {
-  background-color: darkcyan;
-  text-align: right;
-  padding: 14px 18px;
+  background-color: #0E7771;   /* teal */
+  padding: 24px 28px;
+  position: relative;
+  min-height: 120px;
 }
-
 .header img {
-  display: inline-block;
-  vertical-align: middle;
+  position: absolute;
+  right: 28px;
+  top: 16px;
+}
+.header h1 {
+  margin: 0;
+  color: #fff;                 /* white title text */
 }
 
-h1 {
-  font-size: 40px;
-  font-family: Arial, sans-serif;
-  margin: 24px;
+/* Optional content area to demonstrate layout */
+.content {
+  min-height: 40vh;
+  padding: 16px 28px;
+}
+
+/* Footer (US4) */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+footer a {
+  color: #0077cc;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
 }
